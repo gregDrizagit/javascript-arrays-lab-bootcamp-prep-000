@@ -9,6 +9,7 @@ function destructivelyAppendKitten(name)
 function destructivelyPrependKitten(name)
 {
   //expects: ["Bob", "Milo", "Otis", "Garfield"]
+  kittens.unshift(name);
 }
 
 function destructivelyRemoveLastKitten()
